@@ -33,7 +33,7 @@ a:active{
 	float: left;
 	margin: 0px;
 	width: 100%;
-	content:url('../_images/watson_for_president.png');
+	content:url('../_images/watson_for_president_long.png');
 }
 
 #menu{
@@ -128,6 +128,15 @@ a:active{
 .socialmediaupdate{
 	margin-bottom: 10px;
 	font-size: 0.8em;
+}
+.socialmediatext{
+	margin: 10px;	
+}
+.socialmedialink{
+	color: #000;
+}
+.socialmediaauthor{
+	color: #999;
 }
 #watsonpoll{
 	min-height: 300px;
