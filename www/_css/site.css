@@ -1,0 +1,190 @@
+body{
+	background-color: #fff;
+	margin: 0;
+	color: #000;
+	font-family: 'Vollkorn', "Times New Roman", serif;
+	font-size: 0.8em;
+}
+
+a{
+	text-decoration: none;
+	color: #22bbee;
+}
+a:visited{
+	color: #0099dd;
+}
+a:hover{
+	color: #66ddff;
+}
+a:active{
+	color: #66ddff;
+}
+
+#header{
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0px 0px 100px #999;
+}
+
+#logo{
+	float: left;
+	margin: 0px;
+	width: 100%;
+	content:url('../_images/watson_for_president.png');
+}
+
+#menu{
+	float: left;
+	clear: both;
+	width: 100%;
+	height: 43px;
+	overflow: hidden;
+	border-top: 1px solid #eee;
+}
+#menu a{
+	font-family: 'Vollkorn', "Times New Roman", serif;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #0099dd;
+	float: left;
+	width: 19%;/*20%;*/
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#menu a:hover{
+	color: #000;
+}
+.menudiv{
+	float: left;
+	width: 1%;
+}
+.menudiv hr{
+	margin: 0px;
+	border: none;
+    height: 43px;
+    width: 1px;
+    color: #eee;
+    background-color: #eee;
+}
+
+#main{
+	float: left;
+	margin-top: 0px;
+}
+.section{
+	float: left;
+	width: 100%;
+}
+.sectionimg{
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+.sectionbody{
+	float: left;
+	background-color: #fff;
+	box-shadow: 0px 0px 100px #999;
+}
+.sectiontitle{
+	display: block;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin: 10px;
+}
+.sectiontext{
+	margin: 10px;
+}
+.top{
+	float: right;
+	color: #ccc;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin: 10px;
+}
+
+#footer{
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #eee;
+}
+#contact{
+	margin: 10px;
+}
+#legal{
+	margin: 10px;
+}
+
+
+
+
+/* 480 - 640 */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* 640 - 720 */
+@media only screen and (min-width: 640px) {
+	body{
+		font-size: 1em;
+	}
+	#logo {
+		content:url('../_images/watson_2016.png');
+	}
+	#menu a{
+		font-weight: 700;
+	}
+	.sectiontitle{
+		margin: 20px;
+	}
+	.sectiontext{
+		margin: 20px;
+	}
+	.top{
+		margin: 20px;
+	}
+	#contact{
+		margin: 20px;
+	}
+	#legal{
+		margin: 20px;
+	}
+}
+
+/* 720 - 960 */
+@media only screen and (min-width: 720px) {
+
+}
+
+/* 960 - 1080 */
+@media only screen and (min-width: 960px) {
+	.sectiontext{
+		-webkit-column-count: 2;
+	    -moz-column-count: 2;
+	    column-count: 2;
+	    -webkit-column-gap: 20px;
+	    -moz-column-gap: 20px;
+	    column-gap: 20px;
+	}
+}
+
+/* 1080 - 1280 */
+@media only screen and (min-width: 1080px) {
+	.sectiontext{
+		-webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
+	    -webkit-column-gap: 20px;
+	    -moz-column-gap: 20px;
+	    column-gap: 20px;
+	}
+}
+
+/* 1280 */
+/* 1440 */
+/* 1600 */
+/* 1920 */
+/* 2560 */
+/* 3840 */
