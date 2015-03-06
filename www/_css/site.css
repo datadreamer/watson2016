@@ -20,6 +20,8 @@ a:active{
 	color: #66ddff;
 }
 
+
+/* HEADER STUFF */
 #header{
 	float: left;
 	width: 100%;
@@ -69,6 +71,8 @@ a:active{
     background-color: #eee;
 }
 
+
+/* CONTENT STUFF */
 #main{
 	float: left;
 	margin-top: 0px;
@@ -112,7 +116,25 @@ a:active{
 	font-weight: 700;
 	margin: 10px;
 }
+.socialmediatitle{
+	font-weight: 700;
+	color: #999;
+	margin-bottom: 5px;
+}
+.socialmediafeed{
+	float: left;
+	width: 50%;
+}
+.socialmediaupdate{
+	margin-bottom: 10px;
+	font-size: 0.8em;
+}
+#watsonpoll{
+	min-height: 300px;
+}
 
+
+/* FOOTER STUFF */
 #footer{
 	float: left;
 	width: 100%;
