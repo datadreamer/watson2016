@@ -23,10 +23,12 @@ a:active{
 
 /* HEADER STUFF */
 #header{
-	float: left;
+	/*float: left;*/
+	position: fixed;
+	top: 0;
 	width: 100%;
 	background-color: #fff;
-	box-shadow: 0px 0px 100px #999;
+	box-shadow: 0px 0px 100px #000;
 }
 
 #logo{
@@ -43,6 +45,7 @@ a:active{
 	height: 36px;
 	overflow: hidden;
 	border-top: 1px solid #eee;
+	background: #ffffff;
 }
 #menu a{
 	font-family: 'Vollkorn', "Times New Roman", serif;
@@ -50,7 +53,7 @@ a:active{
 	text-transform: uppercase;
 	color: #0099dd;
 	float: left;
-	width: 19%;/*20%;*/
+	width: 19%;
 	text-align: center;
 	padding-bottom: 10px;
 	padding-top: 10px;
@@ -65,7 +68,7 @@ a:active{
 .menudiv hr{
 	margin: 0px;
 	border: none;
-    height: 43px;
+    height: 100px;
     width: 1px;
     color: #eee;
     background-color: #eee;
@@ -75,7 +78,7 @@ a:active{
 /* CONTENT STUFF */
 #main{
 	float: left;
-	margin-top: 0px;
+	margin-top: 50px;
 }
 .section{
 	float: left;
@@ -170,14 +173,8 @@ a:active{
 	body{
 		font-size: 1em;
 	}
-	#logo {
-		content:url('../_images/watson_2016.png');
-	}
 	#menu {
 		height: 43px;
-	}
-	#menu a{
-		font-weight: 700;
 	}
 	.sectiontitle{
 		margin: 20px;
@@ -206,6 +203,26 @@ a:active{
 
 /* 960 - 1080 */
 @media only screen and (min-width: 960px) {
+
+	#logo {
+		width: 50%;
+		/*content:url('../_images/watson_2016.png');*/
+	}
+	#menu {
+		clear: none;
+		width: 50%;
+		overflow: hidden;
+		border-top: none;
+		height: 60px;
+	}
+	#menu a{
+		height: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#main{
+		margin-top: -50px;
+	}
 	.sectiontext{
 		-webkit-column-count: 2;
 	    -moz-column-count: 2;
@@ -218,6 +235,15 @@ a:active{
 
 /* 1080 - 1280 */
 @media only screen and (min-width: 1080px) {
+	#menu {
+		height: 70px;
+	}
+	#menu a{
+		font-size: 1.2em;
+		height: 20px;
+		padding-top: 25px;
+		padding-bottom: 20px;
+	}
 	.sectiontext{
 		-webkit-column-count: 3;
 	    -moz-column-count: 3;
