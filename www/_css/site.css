@@ -95,6 +95,9 @@ a:active{
 	background-color: #fff;
 	box-shadow: 0px 0px 100px #000;
 }
+.sectionbody img{
+	width: 50%;
+}
 .sectiontitle{
 	display: block;
 	font-size: 1.2em;
@@ -265,6 +268,9 @@ a:active{
 	.socialmediafeed{
 		float: left;
 		width: 33%;
+	}
+	.sectionbody img{
+		width: 100%;
 	}
 	.sectiontext{
 		-webkit-column-count: 3;
