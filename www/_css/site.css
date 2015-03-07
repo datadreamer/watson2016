@@ -142,6 +142,8 @@ a:active{
 	color: #999;
 }
 #watsonpoll{
+	float: left;
+	width: 100%;
 	min-height: 300px;
 }
 
@@ -154,10 +156,12 @@ a:active{
 	border-top: 1px solid #eee;
 }
 #contact{
-	margin: 10px;
+	float: left;
+	width: 100%;
 }
 #legal{
-	margin: 10px;
+	float: left;
+	width: 100%;
 }
 
 
@@ -182,6 +186,9 @@ a:active{
 	.sectiontext{
 		margin: 20px;
 	}
+	.socialmediatext{
+		margin: 20px;	
+	}
 	.quote{
 		margin: 0 20px 20px 20px;
 	}
@@ -189,10 +196,8 @@ a:active{
 		margin: 20px;
 	}
 	#contact{
-		margin: 20px;
 	}
 	#legal{
-		margin: 20px;
 	}
 }
 
@@ -223,6 +228,11 @@ a:active{
 	#main{
 		margin-top: -50px;
 	}
+	#watsonpoll{
+		float: left;
+		width: 33%;
+		min-height: 300px;
+	}
 	.sectiontext{
 		-webkit-column-count: 2;
 	    -moz-column-count: 2;
@@ -230,6 +240,14 @@ a:active{
 	    -webkit-column-gap: 20px;
 	    -moz-column-gap: 20px;
 	    column-gap: 20px;
+	}
+	#contact{
+		float: left;
+		width: 50%;
+	}
+	#legal{
+		float: left;
+		width: 50%;
 	}
 }
 
@@ -243,6 +261,10 @@ a:active{
 		height: 20px;
 		padding-top: 25px;
 		padding-bottom: 20px;
+	}
+	.socialmediafeed{
+		float: left;
+		width: 33%;
 	}
 	.sectiontext{
 		-webkit-column-count: 3;
