@@ -205,9 +205,11 @@ a:active{
 }
 
 /* 720 - 960 */
+/*
 @media only screen and (min-width: 720px) {
 
 }
+*/
 
 /* 960 - 1080 */
 @media only screen and (min-width: 960px) {
@@ -265,12 +267,9 @@ a:active{
 		padding-top: 25px;
 		padding-bottom: 20px;
 	}
-	.socialmediafeed{
-		float: left;
-		width: 33%;
-	}
 	.sectionbody img{
 		width: 100%;
+		margin-bottom: 10px;
 	}
 	.sectiontext{
 		-webkit-column-count: 3;
@@ -279,6 +278,13 @@ a:active{
 	    -webkit-column-gap: 20px;
 	    -moz-column-gap: 20px;
 	    column-gap: 20px;
+	}
+	.socialmediafeed{
+		float: left;
+		width: 33%;
+	}
+	.socialmediaupdate{
+		font-size: 1em;
 	}
 }
 

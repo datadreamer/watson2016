@@ -6,12 +6,21 @@
 		<title>Watson for President 2016</title>
 		<meta name="description" content="Organization to elect IBM's Watson AI as President of The United States in 2016.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="thumbnail" content="watson_2016_square.png" />
+
+		<meta property="og:site_name" content="Watson for President 2016"/>
+		<meta property="og:title" content="Watson for President 2016"/>
+		<meta property="og:description" content="It's time to elect the first artificial intelligence into office."/>
+		<meta property="og:image" content="watson_2016_square.png">
+		<meta property="og:url" content="http://www.watson2016.com/">
+		<meta property="og:type" content="site"/>
 
 		<link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="_css/normalize.min.css">
 		<link rel="stylesheet" href="_css/site.css" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="image_src" href="watson_2016_square.png" />
 
 		<script src="_js/vendor/jquery-1.11.0.min.js"></script>
         <script src="_js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -24,10 +33,9 @@
 
 				    var target = this.hash;
 				    var $target = $(target);
+				    var $header = $('#header');
 
-				    $('html, body').stop().animate({
-				        'scrollTop': $target.offset().top
-				    }, 900, 'swing');
+				    $('html, body').stop().animate({ 'scrollTop': $target.offset().top - $header.height() }, 900, 'swing');
 				});
 			});
         </script>
@@ -38,7 +46,7 @@
 
 		<div id="header">
 
-			<a href="/"><img id="logo"></a>
+			<a href="#learn"><img id="logo"></a>
 			<div id="menu">
 				<a href="#learn">Learn</a>
 				<div class="menudiv"><hr></div>
@@ -131,11 +139,11 @@
 								<div class="socialmediatitle">
 									Twitter @watson2016
 								</div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">In fermentum urna erat, eget tristique quam porttitor non. Aliquam mattis tellus libero, nec fringilla diam auctor ac volutpat.</a><div class="socialmediaauthor">First Last</div></div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">In fermentum urna erat, eget tristique quam porttitor non. Aliquam mattis tellus libero, nec fringilla diam auctor ac volutpat.</a><div class="socialmediaauthor">username</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 							</div>
 						</div>
 
@@ -144,11 +152,11 @@
 								<div class="socialmediatitle">
 									Facebook @watson2016
 								</div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
-								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">First Last</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 							</div>
 						</div>
 
@@ -172,7 +180,7 @@
 				<div class="sectionbody">
 					<div class="sectiontitle">Donate</div>
 					<div class="sectiontext">
-						The Watson 2016 Foundation is not accepting donations at this time and does not intend to in the foreseeable future. IBM made 12 billion dollars last year, so they don’t need your money either. If you are interested in the intersection between technology and politics we invite you to <a href="https://supporters.eff.org/donate">donate to the Electronic Frontier Foundation</a>. For 25 years the EFF has been a champion for civil liberties, privacy, and education on politics around emerging technologies. With your support they will continue to aid in technological progression with humanity in mind.
+						The Watson 2016 Foundation is not accepting donations at this time and does not intend to in the foreseeable future. IBM made 12 billion dollars last year, so they don’t need your money either. If you are interested in the intersection between technology and politics we invite you to donate to the <a href="https://supporters.eff.org/donate">Electronic Frontier Foundation</a>. For 25 years the EFF has been a champion for civil liberties, privacy, and education on politics around emerging technologies. With your support they will continue to aid in technological progression with humanity in mind.
 						<br/>
 					</div>
 					<a class="top" href="#main">&uarr; Top</a>
@@ -191,7 +199,7 @@
 			</div>
 			<div id="legal">
 				<div class="socialmediatext">
-					Watson and the Watson logo are copyright IBM. The Watson 2016 Foundation has no affiliation with IBM. The views and opinions expressed here in no way represent the views, positions or opinions - expressed or implied - by IBM or anyone else.
+					Watson, the Watson logo, Power7, and IBM logo are copyright IBM. The Watson 2016 Foundation has no affiliation with IBM. The views and opinions expressed here in no way represent the views, positions or opinions - expressed or implied - by IBM or anyone else. Jeopardy! is copyright Sony Pictures Television.<br/><br/>
 				</div>
 			</div>
 
