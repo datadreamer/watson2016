@@ -95,11 +95,6 @@ a:active{
 	background-color: #fff;
 	box-shadow: 0px 0px 100px #000;
 }
-.videosectionbody{
-	float: left;
-	background-color: #fff;
-	box-shadow: 0px 0px 100px #000;
-}
 .sectionbody img{
 	width: 50%;
 }
@@ -131,12 +126,23 @@ a:active{
 }
 
 /* video */
+.videosectionbody{
+	float: left;
+	background-color: #fff;
+	box-shadow: 0px 0px 100px #000;
+}
 .videosection{
 	margin: 10px;
 }
+.videolink{
+	color: #000 !important;
+}
+.videolink:hover{
+	color: #22bbee !important;
+}
 .videobody{
 	float: left;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .videothumb{
 	border: none;
