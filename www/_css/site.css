@@ -95,6 +95,11 @@ a:active{
 	background-color: #fff;
 	box-shadow: 0px 0px 100px #000;
 }
+.videosectionbody{
+	float: left;
+	background-color: #fff;
+	box-shadow: 0px 0px 100px #000;
+}
 .sectionbody img{
 	width: 50%;
 }
@@ -107,6 +112,8 @@ a:active{
 .sectiontext{
 	margin: 10px;
 }
+
+/* quotes */
 .quote{
 	font-style: italic;
 	color: #999;
@@ -122,6 +129,37 @@ a:active{
 	font-weight: 700;
 	margin: 10px;
 }
+
+/* video */
+.videosection{
+	margin: 10px;
+}
+.videobody{
+	float: left;
+	margin-bottom: 10px;
+}
+.videothumb{
+	border: none;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.videotext{
+	float: left;
+	width: 100%;
+}
+.videotitle{
+	font-style: italic;
+	width: 100%;
+}
+.videosource{
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+
+/* social media stuff */
 .socialmediatitle{
 	font-weight: 700;
 	color: #999;
@@ -198,6 +236,18 @@ a:active{
 	.top{
 		margin: 20px;
 	}
+	.videosection{
+		margin: 20px;
+	}
+	.videothumb{
+		width: 50%;
+	}
+	.videotext{
+		float: left;
+		width: 48%;
+		margin-left: 2%;
+		font-size: 0.8em;
+	}
 	#contact{
 	}
 	#legal{
@@ -246,6 +296,23 @@ a:active{
 	    -moz-column-gap: 20px;
 	    column-gap: 20px;
 	}
+	.videosection{
+		margin: 0px;
+	}
+	.videobody{
+		width: 46%;
+		margin-left: 2%;
+		margin-right: 2%;
+		min-height: 470px;
+	}
+	.videothumb{
+		width: 100%;
+	}
+	.videotext{
+		width: 100%;
+		margin-left: 0%;
+		font-size: 1em;
+	}
 	#contact{
 		float: left;
 		width: 50%;
@@ -285,6 +352,20 @@ a:active{
 	}
 	.socialmediaupdate{
 		font-size: 1em;
+	}
+	.videobody{
+		width: 29%;
+		margin-left: 2%;
+		margin-right: 2%;
+		min-height: 470px;
+	}
+	#contact{
+		float: left;
+		width: 33%;
+	}
+	#legal{
+		float: left;
+		width: 67%;
 	}
 }
 
