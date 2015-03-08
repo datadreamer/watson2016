@@ -196,7 +196,12 @@ a:active{
 .socialmediatitle{
 	font-weight: 700;
 	color: #999;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+}
+.socialmediaicon{
+	width: 16px !important;
+	height: 16px !important;
+	vertical-align: middle;
 }
 .socialmediafeed{
 	float: left;
@@ -262,6 +267,11 @@ a:active{
 	}
 	.socialmediatext{
 		margin: 20px;	
+	}
+	.socialmediaicon{
+		width: 32px !important;
+		height: 32px !important;
+		vertical-align: middle;
 	}
 	.quote{
 		margin: 0 20px 20px 20px;
