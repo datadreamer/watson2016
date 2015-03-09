@@ -198,7 +198,7 @@ ul{
 /* social media stuff */
 .socialmediatitle{
 	font-weight: 700;
-	color: #999;
+	color: #666;
 	margin-bottom: 10px;
 }
 .socialmediaicon{
@@ -236,12 +236,17 @@ ul{
 }
 .polloption{
 	float: left;
-	width: 48%;
+	width: 30%;
 	background-color: #ccc;
 	margin-bottom: 10px;
+	text-align: center;
 }
 .polloption:hover{
 	background-color: #66ddff;
+}
+.polloption a{
+	color: #666;
+	color: rgba(0, 0, 0, 0.5);
 }
 .polloption img{
 	float: left;
