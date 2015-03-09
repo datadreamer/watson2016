@@ -258,6 +258,24 @@ ul{
 	float: left;
 	width: 100%;
 }
+.pollinstructions{
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.pollsegment{
+	float: left;
+	width: 50%;
+}
+.pollsegment input{
+	width: 90%;
+}
+.pollsegment select{
+	width: 90%;
+}
+.pollsegment textarea{
+	width: 100%;
+}
 
 
 /* FOOTER STUFF */
