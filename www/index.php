@@ -200,73 +200,6 @@
 							</div>
 						</a>
 
-						<!--
-						<a class="videolink" href="https://www.youtube.com/watch?v=WBeN3336wWQ">
-							<div class="videobody">
-								<img class="videothumb" src="http://img.youtube.com/vi/WBeN3336wWQ/maxresdefault.jpg">
-								<div class="videotext">
-									<div class="videotitle">Chef Watson and the Institute of Culinary Education</div>
-									<div class="videosource">IBM Watson [2:37]</div>
-									Hear how culinary experts are working with Chef Watson. James Briscione, Director of Culinary Development, and Michael Laiskonis, Creative Director, of the Institute of Culinary Education explain how IBM Watson is allowing them to develop innovative recipes.
-								</div>
-							</div>	
-						</a>
-						<a class="videolink" href="https://www.youtube.com/watch?v=uDBZnaoJVlk">
-							<div class="videobody">
-								<img class="videothumb" src="http://img.youtube.com/vi/uDBZnaoJVlk/mqdefault.jpg">
-								<div class="videotext">
-									<div class="videotitle">IBM Watson: Smartest Machine on Earth</div>
-									<div class="videosource">PBS - Nova [52:15]</div>
-									"Watson," an IBM computing system, is gearing up for a first-of-its-kind challenge—taking on human contestants on the game show Jeopardy! With a brain the size of 2,400 home computers and a database of about 10 million documents, will Watson be able to compute its way to victory?
-								</div>
-							</div>
-						</a>
-
-						<a class="videolink" href="https://www.youtube.com/watch?v=_429UIzN1JM">
-							<div class="videobody">
-								<img class="videothumb" src="http://img.youtube.com/vi/_429UIzN1JM/maxresdefault.jpg">
-								<div class="videotext">
-									<div class="videotitle">Perspectives on Watson: Ambiguity</div>
-									<div class="videosource">IBM [2:00]</div>
-									IBM's Watson is a deep analytics and natural language processing computer that has tackled the issue of processing and recognizing ambiguous words, allowing it to compete on Jeopardy!.
-								</div>
-							</div>
-						</a>
-
-						<a class="videolink" href="https://www.youtube.com/watch?v=TuxL3yzXxJo">
-							<div class="videobody">
-								<img class="videothumb" src="http://img.youtube.com/vi/TuxL3yzXxJo/mqdefault.jpg">
-								<div class="videotext">
-									<div class="videotitle">MSK collaborates with IBM to teach Watson in the Fight Against Cancer.</div>
-									<div class="videosource">IBM [2:44]</div>
-									As one of America's first cancer centers, Memorial Sloan Kettering Cancer Center has always been on the vanguard of the fight against cancer. Now IBM and Memorial Sloan Kettering are collaborating to teach the innovative cognitive computing capabilities of IBM Watson to take the next big step.
-								</div>
-							</div>
-						</a>
-
-						<a class="videolink" href="https://www.youtube.com/watch?v=P18EdAKuC1U">
-							<div class="videobody">
-								<img class="videothumb" src="http://img.youtube.com/vi/P18EdAKuC1U/maxresdefault.jpg">
-								<div class="videotext">
-									<div class="videotitle">Watson and the Jeopardy! Challenge</div>
-									<div class="videosource">IBM Research [3:45]</div>
-									See how Watson won Jeopardy! and what it meant for the future of cognitive systems.
-								</div>
-							</div>
-						</a>
-
-						<a class="videolink" href="https://www.youtube.com/watch?v=qry_zGZFjOc">
-							<div class="videobody">
-								<img class="videothumb" src="http://img.youtube.com/vi/qry_zGZFjOc/mqdefault.jpg">
-								<div class="videotext">
-									<div class="videotitle">Introducing IBM Watson Discovery Advisor</div>
-									<div class="videosource">IBM Watson [2:14]</div>
-									In the fight against cancer, Watson helped identify new target proteins in a matter of weeks, not years, to accelerate the discovery of new treatments. In other industries as well--finance, retail, government, manufacturing, energy, education--Watson is forging new partnerships between humans and computers to enhance, scale and accelerate human expertise.
-								</div>
-							</div>
-						</a>
-						-->
-
 						<!-- Campaign Graphics -->
 						<div id="campaigngraphics">
 
@@ -282,7 +215,7 @@
 				<div class="sectionbody">
 					<div class="sectiontitle">Social</div>
 					<div class="socialmediatext">
-						Add to the discourse by mentioning @watson2016 on twitter or #thinkwatson on facebook and your comments will appear on this page. If you send us a question, hopefully we'll have time to get back to you promptly. Don't forget to answer our poll how you feel about Watson below.
+						Add to the discourse by tagging posts with #thinkwatson and your comments will appear on this page. If you send us a question, hopefully we'll have time to get back to you promptly. Don't forget to answer our poll how you feel about Watson below.
 					</div>
 					<div style="float:left;">
 
