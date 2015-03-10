@@ -199,11 +199,6 @@
 								</div>
 							</div>
 						</a>
-
-						<!-- Campaign Graphics -->
-						<div id="campaigngraphics">
-
-						</div>
 					</div>
 
 					<a class="top" href="#main">&uarr; Top</a>
@@ -215,7 +210,9 @@
 				<div class="sectionbody">
 					<div class="sectiontitle">Social</div>
 					<div class="socialmediatext">
-						Add to the discourse by tagging posts with #thinkwatson and your comments will appear on this page. If you send us a question, hopefully we'll have time to get back to you promptly. Don't forget to answer our poll how you feel about Watson below.
+						<!--
+						Add to the discourse by tagging posts with #thinkwatson and your comments will appear on this page. If you send us a question, hopefully we'll have time to get back to you promptly. Don't forget to answer our poll how you feel about Watson below.-->
+						Check out our Twitter and Facebook feeds and use the hashtag #thinkwatson. If you send us a question, hopefully we'll have time to get back to you promptly. Answer our poll how you feel about Watson, and check out our campaign graphics below.
 					</div>
 					<div style="float:left;">
 
@@ -224,7 +221,7 @@
 								<div class="socialmediatitle">
 									<a href="https://twitter.com/watson2016"><img class="socialmediaicon" src="_images/twitter.png"> @watson2016</a>
 								</div>
-								
+
 								<!--
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">In fermentum urna erat, eget tristique quam porttitor non. Aliquam mattis tellus libero, nec fringilla diam auctor ac volutpat.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
@@ -291,6 +288,11 @@
 								
 							</div>
 						</div>
+
+					</div>
+
+					<!-- Campaign Graphics -->
+					<div id="campaigngraphics">
 
 					</div>
 
