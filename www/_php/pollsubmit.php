@@ -21,8 +21,15 @@
 
 		$insert = "INSERT INTO poll (vote, gender, party, age, zipcode, reason, ip) values ('$answer', '$gender', '$party', '$age', '$zipcode', '$reason', '$ip')";
 		if(mysql_query($insert)) {
-			echo "<div class='pollinstructions'>Your vote has been recorded! Here are the current polls:</div>";
+			echo "<div class='pollinstructions'>Your vote has been recorded! Here are the current results:<br/><br/>";
 			// TODO: echo results to user
+			$result = mysql_query("SELECT * FROM poll WHERE vote='1'");
+			echo mysql_num_rows($result) . " Yes";
+			$result = mysql_query("SELECT * FROM poll WHERE vote='2'");
+			echo mysql_num_rows($result) . " No";
+			$result = mysql_query("SELECT * FROM poll WHERE vote='0'");
+			echo mysql_num_rows($result) . " Undecided";
+			echo "</div>";
 		} else {
 			echo mysql_error();
 			echo "<div class='pollinstructions'>I'm sorry but there was an error recording your vote. Please try again later.</div>";

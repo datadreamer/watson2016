@@ -9,7 +9,8 @@ Twitter::$cacheDir = dirname(__FILE__) . '/temp';
 
 $twitter = new Twitter($consumerKey, $consumerSecret, $accessToken, $accessTokenSecret);
 
-$statuses = $twitter->search("#thinkwatson");
+//$statuses = $twitter->search("#thinkwatson");
+$statuses = $twitter->load(Twitter::REPLIES));
 
 date_default_timezone_set('America/Los_Angeles');
 

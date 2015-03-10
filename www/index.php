@@ -224,11 +224,14 @@
 								<div class="socialmediatitle">
 									<a href="https://twitter.com/watson2016"><img class="socialmediaicon" src="_images/twitter.png"> @watson2016</a>
 								</div>
+								
+								<!--
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">In fermentum urna erat, eget tristique quam porttitor non. Aliquam mattis tellus libero, nec fringilla diam auctor ac volutpat.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								-->
 							</div>
 						</div>
 
@@ -237,11 +240,14 @@
 								<div class="socialmediatitle">
 									<a href="https://facebook.com/votewatson2016"><img class="socialmediaicon" src="_images/facebook.png"> @votewatson2016</a>
 								</div>
+
+								<!--
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
 								<div class="socialmediaupdate"><a class="socialmedialink" href="#">Nam accumsan vehicula diam. Suspendisse et magna est. Nam quis ligula ac justo aliquet pulvinar tempor ut lectus.</a><div class="socialmediaauthor">username</div></div>
+								-->
 							</div>
 						</div>
 
