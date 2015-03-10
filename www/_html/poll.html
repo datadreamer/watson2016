@@ -1,32 +1,31 @@
-<form>
+<form id="watsonpollform" name="watsonpollform" method="POST" action="">
 	<div class="pollinstructions">
-		You've selected [YES], but before your answer can be saved we would like to get some basic anonymous demographic data from you. This will help us assess Watson's key audience.
+		Thank you for participating, but before we record your vote we would like to get some basic anonymous demographic data from you. This will help us assess Watson's key audience.
 	</div>
 	<div class="pollsegment">
 		Age:<br/>
-		<input name="age" type="number"><br/>
+		<input id="age" name="age" type="number"><br/>
 		Gender:<br/>
-		<select name="gender">
+		<select id="gender" name="gender">
 			<option value=""></option>
 			<option value="1">Female</option>
 			<option value="2">Male</option>
 			<option value="0">Other</option>
 		</select><br/>
 		Political Affiliation:<br/>
-		<select name="party">
+		<select id="party" name="party">
 			<option value=""></option>
 			<option value="1">Democrat</option>
 			<option value="2">Republican</option>
 			<option value="0">Other</option>
 		</select><br/>
 		Zip code:<br/>
-		<input name="zipcode" type="number"><br/>
+		<input id="zipcode" name="zipcode" type="number"><br/>
 	</div>
 	<div class="pollsegment">
 		Reason (140 characters):
-		<textarea name="message" rows="10" cols="30">
-		</textarea><br/>
+		<textarea id="reason" name="reason" rows="10" cols="30"></textarea><br/>
 		<br/>
-		<input type="submit" value="Submit">
+		<input type="submit" value="Submit" id="pollsubmit">
 	</div>
 </form>
