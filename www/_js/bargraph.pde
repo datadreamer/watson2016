@@ -19,20 +19,19 @@ void setup(){
     color c = colors[i];
     bars.add(new Bar(name, val, c));
   }
-  barWidth = (width - ((bars.size()-1) * 10)) / bars.size();
-  widthScale = (width - 40) / bars.size();
-  heightScale = (height - 50) / topValue;
   textSize(18);
   textAlign(CENTER);
   noStroke();
 }
 
 void draw(){
+  widthScale = (width - 20) / bars.size();
+  heightScale = (height - 50) / topValue;
   background(255);
   int i = 0;
   for(Bar bar: bars){
     pushMatrix();
-    translate(i * (widthScale+10) + 10, 10);
+    translate(i * (widthScale+10), 10);
     bar.draw();
     popMatrix();
     i++;
@@ -48,7 +47,6 @@ class Bar{
     this.name = name;
     this.value = value;
     this.c = c;
-    println(c +" "+ red(c) +" "+ green(c) +" "+ blue(c));
   }
   
   void draw(){
