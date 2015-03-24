@@ -74,7 +74,7 @@
 						</div>
 						The Watson 2016 Foundation is an independent organization formed for the advocacy of the artificial intelligence known as Watson to run for President of The United States of America. It is our belief that Watson’s unique capabilities to assess information and make informed and transparent decisions define it as an ideal candidate for the job responsibilities required by the president.<br/>
 						<br/>
-						Watson is a system of computer software processes used for answering questions posed in natural language, initially developed by IBM for the quiz show Jeopardy! Watson compiles information from a variety of sources into multiple terabytes of data used as reference for generating responses. The more information Watson is able to consume, the more informed it’s decision making capabilities become. It's also capable of accepting information from any resource, allowing the possibility to analyze different perspectives and political agendas on a particular subject.<br/>
+						Watson is a system of computer software processes used for answering questions posed in natural language, initially developed by IBM for the quiz show Jeopardy! Watson compiles information from a variety of sources into multiple terabytes of data used as reference for generating responses. The more information Watson is able to consume, the more informed its decision making capabilities become. It's also capable of accepting information from any resource, allowing the possibility to analyze different perspectives and political agendas on a particular subject.<br/>
 						<br/>
 						<img class="sectionimg" src="_images/ibm_power7.jpg">
 						Watson marks a shift in machine learning in that it was designed to compete against humans using natural language processing in both accuracy of answer as well as speed. It must understand a question, use the key information elements in the question to analyze an immense wealth of data, and derive the top candidates for answers. This is a task all politicians undergo on a daily basis, including the president, and could be more suitably and efficiently executed by an artificial intelligence.<br/>
@@ -85,7 +85,7 @@
 						</div>
 						Watson is an implementation of the DeepQA system, a massively parallel probabilistic evidence-based architecture, designed to crunch through massive amounts of data to derive the best possible answers to a given query. This data can be of any type about any subject, ranging from trivia to geopolitical issues to health care. Since 2013 it has been used for utilization management decisions in lung cancer treatment at Memorial Sloan-Kettering Cancer Center, where 90% of nurses using the system follow its guidance.<br/>
 						<br/>
-						What makes Watson unique is it’s interface capabilities with humans. It not only interacts by speech but has a visual representation to convey it’s current state. Just in the same way humans have facial expressions to convey emotions, Watson changes it’s visual form to express it’s level of confidence in a selected answer. Wouldn’t the country be better if all politicians were that transparent?
+						What makes Watson unique is its interface capabilities with humans. It not only interacts by speech but has a visual representation to convey its current state. Just in the same way humans have facial expressions to convey emotions, Watson changes its visual form to express its level of confidence in a selected answer. Wouldn’t the country be better if all politicians were that transparent?
 					</div>
 					<a class="top" href="#main">&uarr; Top</a>
 				</div>
@@ -96,7 +96,7 @@
 				<div class="sectionbody">
 					<div class="sectiontitle">Issues</div>
 					<div class="sectiontext">
-						Political decision making is not simply a bullet list of separate issues but rather a complex  interconnected network of systems, all of which affect each other. Watson’s capabilities for parallel processing on a given query allow it to evaluate concerns on a variety of metrics, gauging the most beneficial response across all areas. Watson can advise the best options for any given decision based on it’s impact on the global economy, the environment, education, health care, foreign policy, and civil liberties.<br/>
+						Political decision making is not simply a bullet list of separate issues but rather a complex interconnected network of systems, all of which affect each other. Watson’s capabilities for parallel processing on a given query allow it to evaluate concerns on a variety of metrics, gauging the most beneficial response across all areas. Watson can advise the best options for any given decision based on its impact on the global economy, the environment, education, health care, foreign policy, and civil liberties.<br/>
 						<br/>
 						<div class="socialmediatitle">
 							Investment in the Future
