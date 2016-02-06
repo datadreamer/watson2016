@@ -13,12 +13,12 @@ if(mysql_num_rows($result) > 0){
 	echo "</div>";
 } else {
 
-	$answer = $_POST['answer'];
-	$age = $_POST['age'];
-	$gender = $_POST['gender'];
-	$party = $_POST['party'];
-	$zipcode = $_POST['zipcode'];
-	$reason = $_POST['reason'];
+	$answer = mysql_escape_string($_POST['answer']);
+	$age = mysql_escape_string($_POST['age']);
+	$gender = mysql_escape_string($_POST['gender']);
+	$party = mysql_escape_string($_POST['party']);
+	$zipcode = mysql_escape_string($_POST['zipcode']);
+	$reason = mysql_escape_string($_POST['reason']);
 
 	// TODO: check CAPTCHA input
 
