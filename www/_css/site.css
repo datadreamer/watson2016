@@ -157,7 +157,7 @@ a:active{
 	margin-bottom: 10px;
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
 }
 .videoplayoverlay{
 	width: 128px;
@@ -208,14 +208,14 @@ ul{
 }
 .socialmediafeed{
 	float: left;
-	width: 50%;
+	width: 100%;
 }
 .socialmediaupdate{
 	margin-bottom: 10px;
 	font-size: 0.8em;
 }
 .socialmediatext{
-	margin: 10px;	
+	margin: 10px;
 }
 .socialmedialink{
 	color: #000;
@@ -321,7 +321,7 @@ ul{
 		margin: 20px;
 	}
 	.socialmediatext{
-		margin: 20px;	
+		margin: 20px;
 	}
 	.socialmediaicon{
 		width: 32px !important;
@@ -444,7 +444,7 @@ ul{
 	}
 	.socialmediafeed{
 		float: left;
-		width: 33%;
+		width: 50%;
 	}
 	.socialmediaupdate{
 		font-size: 1em;
@@ -456,7 +456,7 @@ ul{
 		min-height: 470px;
 	}
 	#watsonpoll{
-		width: 33%;
+		width: 50%;
 	}
 	#contact{
 		float: left;

@@ -186,7 +186,7 @@
 								<div class="videotext">
 									<div class="videotitle">Perspectives on Watson: Finance</div>
 									<div class="videosource">IBM [1:53]</div>
-									Enormous amounts of data are generated every day in the financial industry. The deep analytics of Watson, the IBM computer system designed to play Jeopardy!, could have profound effects on how companies make use of this information. 
+									Enormous amounts of data are generated every day in the financial industry. The deep analytics of Watson, the IBM computer system designed to play Jeopardy!, could have profound effects on how companies make use of this information.
 								</div>
 							</div>
 						</a>
@@ -197,7 +197,7 @@
 								<div class="videotext">
 									<div class="videotitle">Perspectives on Watson: Customer Service</div>
 									<div class="videosource">IBM [1:01]</div>
-									The customer service industry is judged on two criteria: speed and accuracy. Watson, the IBM computing system designed to compete on Jeopardy!, is built to achieve both of these. IBM experts share their thoughts on how the DeepQA technology that powers Watson could transform the customer service industry into a faster, more accurate experience. 
+									The customer service industry is judged on two criteria: speed and accuracy. Watson, the IBM computing system designed to compete on Jeopardy!, is built to achieve both of these. IBM experts share their thoughts on how the DeepQA technology that powers Watson could transform the customer service industry into a faster, more accurate experience.
 								</div>
 							</div>
 						</a>
@@ -214,7 +214,7 @@
 					<div class="socialmediatext">
 						<!--
 						Add to the discourse by tagging posts with #thinkwatson and your comments will appear on this page. If you send us a question, hopefully we'll have time to get back to you promptly. Don't forget to answer our poll how you feel about Watson below.-->
-						Check out our Twitter and Facebook feeds and use the hashtag #thinkwatson. If you send us a question, hopefully we'll have time to get back to you promptly. Answer our poll how you feel about Watson, and check out our campaign graphics below.
+						Add to the discourse by mentioning @watson2016 on Twitter, or use the hashtag #thinkwatson to discuss with your friends, and don't forget to answer our poll on how you feel about Watson running for president. If you send us a question, hopefully we'll have time to get back to you promptly.
 					</div>
 					<div style="float:left;">
 
@@ -256,7 +256,7 @@
 									<img class="socialmediaicon" src="_images/vote.png"> POLL: Would you vote for Watson in 2016?
 								</div>
 								<div class="poll" id="poll">
-									
+
 									<div class="polloption" id="yes">
 										<a href="javascript:pollanswer(1)">
 											<img src="_images/yesicon.png">
@@ -287,7 +287,7 @@
 										?>
 									</div>
 								</div>
-								
+
 							</div>
 						</div>
 
